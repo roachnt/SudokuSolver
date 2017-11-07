@@ -144,7 +144,7 @@ public class Solver {
 
     /**
      * Final solving method for sudoku, runs reducer
-     * and backtracker in successtion
+     * and backtracker in succession
      * @param b the board
      */
     public static void solve(Board b) {
