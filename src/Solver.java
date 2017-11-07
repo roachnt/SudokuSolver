@@ -162,6 +162,7 @@ public class Solver {
         Board b3 = new Board("ExampleBoards/board3.txt");
         Board b4 = new Board("ExampleBoards/board4.txt");
         Board b5 = new Board("ExampleBoards/board5.txt");
+        Board b6 = new Board("ExampleBoards/hardest_ever.txt");
 
         long startTime1 = System.currentTimeMillis();
         solve(b1);
@@ -191,6 +192,12 @@ public class Solver {
         solve(b5);
         long endTime5 = System.currentTimeMillis();
         System.out.println((endTime5 - startTime5) + " Milliseconds");
+        System.out.println("---------------------");
+
+        long startTime6 = System.currentTimeMillis();
+        solve(b6);
+        long endTime6 = System.currentTimeMillis();
+        System.out.println((endTime6 - startTime6) + " Milliseconds");
         System.out.println("---------------------");
     }
 }

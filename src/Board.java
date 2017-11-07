@@ -33,7 +33,6 @@ public class Board {
         try {
             Scanner fileIn = new Scanner(new File(file));
             int row = 0;
-
             while (fileIn.hasNextLine()) {
                 String line = fileIn.nextLine();
                 for (int col = 0; col < 9; col++) {
