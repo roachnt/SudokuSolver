@@ -38,4 +38,5 @@ and prints the solved puzzle in a simliar format:
 5 2 1 9 7 4 3 6 8 
 
 4 3 8 5 2 6 9 1 7 
+
 7 9 6 3 1 8 4 5 2 
